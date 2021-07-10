@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DragonCity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,15 +16,14 @@
     <img class="bgPinkImg" src="./Img/pinkBg.80e1a276.svg" alt="">
     <h1 class="landingPageImageBgText">Dragon City</h1>
     <p class="landingSectionApp">APPLICATION</p>
-   <div class="container" >
-    <div class="row landingPageLogo" > <img src="./Img/landingpageImg/logo.png" alt="">
+   <div class="container-fluid" >
+    <div class="row landingPageLogo" > 
+      <img src="./Img/landingpageImg/logo.png" alt="">
     </div>
     <div class="row landingPageBot">
-      <div class="col landingPageBotText "data-aos="fade-right"
-      data-aos-offset="300"
-      data-aos-easing="ease-in-sine"> 
+      <div class="col landingPageBotText "> 
         <p>Welcome to</p>
-        <h1>Dragon City <br> <br>  Bahrain</h1>
+        <h1>Dragon City <br> Bahrain</h1>
       </div>
       <div class="col">
         <div class="landingPageImage">
@@ -30,13 +33,95 @@
       </div>
       <div class="col landingPageStore"> 
        <img class="landingPageStoreApple" src="./Img/landingpageImg/apple logo.png" alt=""> 
-       <img class="landingPageStorePlay" src="./Img/landingpageImg/playstore.png" alt="">
+       <img class="landingPageStorePlay" src="./Img/landingpageImg/Group 3019 (1).png" alt="">
       </div>
     </div>
    </div>
   </section>
 
+<section class="questionSection">
+  <div class="container">
+    <div class="row questionPageLogo" >
+       <img src="./Img/landingpageImg/logo.png" alt="">
+    </div>
+     <div class="storyCard "> 
+    <div class="accordion" id="accordionExample">
+      <h1>
+        Have Any Question?
+      </h1>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button  questionBtnOne  " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Lorem ipsum dolor sit amet.?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere, delectus esse molestias quod similique sit modi necessitatibus quis numquam. </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Lorem, ipsum dolor?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere, delectus esse molestias quod similique sit modi necessitatibus quis numquam. </p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Lorem ipsum dolor sit amet.?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere, delectus esse molestias quod similique sit modi necessitatibus quis numquam. </p>
+             
+           
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Lorem, ipsum dolor?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere, delectus esse molestias quod similique sit modi necessitatibus quis numquam. </p>
+           </div>
+      </div>
+    </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Lorem, ipsum dolor dolor sit amet?
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore facere, delectus esse molestias quod similique sit modi necessitatibus quis numquam. </p>
+          </div>
+        </div>
+    </div>
+     
+</section>
 
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   
 </body>
 </html>
