@@ -3,10 +3,21 @@ body {
   padding: 0;
 }
 
-.landingSection {
+.landingSection  {
   height: 100vh !important;
  position: relative;
  overflow: hidden;
+}
+.landingSection svg {
+  width: 100%;
+  height:auto;
+  position: absolute;
+  bottom: -100px;
+
+}
+
+.animation {
+  transform: rotate(180deg);
 }
 
 .landingPageLogo {
@@ -39,6 +50,7 @@ body {
 }
 
 .landingPageBotText {
+  z-index: 999;
   padding: 200px 0px 0px 258px;
  line-height: 15px;
 }
@@ -81,8 +93,8 @@ body {
   opacity: .2;
   position: absolute;
   transform: rotate(270deg);
-  top: 37px;
-  left: 440px;
+  top: 152px;
+    left: 404px;
   z-index: -10;
 }
 
@@ -96,6 +108,7 @@ body {
 }
 
 .landingPageStore {
+  z-index: 9999;
   width: 200px;
   padding: 178px 37px 0px 54px;
   
@@ -310,4 +323,28 @@ height: auto;
 }
 .footerList {
   padding: 50px 150px;
+}
+
+.swiper-pagination {
+  position: absolute;
+    right: 45px;
+    padding-top: 24px;
+    padding-left: 5px;
+    z-index: 99999;
+    top: 35%;
+}
+
+.swiper-pagination-bullet {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #E5A64A;
+  margin-bottom: 15px;
+  opacity: .6;
+  pointer-events: none;
+  transition: .3s;
+}
+
+.secondSection {
+  height: 100vh;
 }
